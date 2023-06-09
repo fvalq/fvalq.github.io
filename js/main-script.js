@@ -5,7 +5,7 @@
 let camera, fieldCamera, skyCamera, scene, bufferScene, bufFieldTex, bufSkyTex, renderer;
 let controls;
 let materialIndex = 0;
-let flowerFieldHeightMap = new THREE.TextureLoader().load("http://127.0.0.1:5500/textures/heightmap.png");
+let flowerFieldHeightMap = new THREE.TextureLoader().load("https://raw.githubusercontent.com/fvalq/fvalq.github.io/main/textures/heightmap.png");
 
 let grassField;
 let geometry, mesh;
