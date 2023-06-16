@@ -117,7 +117,7 @@ function createPerspectiveCamera() {
     camera.position.z = 300;
     camera.lookAt(scene.position);
 
-    controls = new THREE.OrbitControls(camera, renderer.domElement); // TODO - delete before delivery
+    //controls = new THREE.OrbitControls(camera, renderer.domElement); // TODO - delete before delivery
 }
 
 
@@ -265,7 +265,7 @@ function update() {
     }
 
     rotateObject(ovni, 0, baseRotationValue * delta * speed, 0);
-    controls.update();
+    //controls.update();
 }
 
 function genTextures() {
