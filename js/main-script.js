@@ -276,6 +276,8 @@ function genTextures() {
 
     renderer.setRenderTarget(bufSkyTex);
     renderer.render(bufferScene, skyCamera);
+
+    renderer.setRenderTarget(null);
 }
 
 /////////////
@@ -283,8 +285,6 @@ function genTextures() {
 /////////////
 function render() {
     'use strict';
-
-    renderer.setRenderTarget(null);
 
     /* Render onto screen */
     renderer.render(scene, camera);
